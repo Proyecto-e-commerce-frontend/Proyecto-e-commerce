@@ -1,13 +1,7 @@
-export default function Home() {
+export default function Login() {
+    
+    return(
 
-    return (
-        <>
-            <header>
-
-                <img src="https://www.nasa.gov/sites/default/files/thumbnails/image/web_first_images_release_0.png"/>
-
-            </header>
-            
-        </>
+        <h1 className="font-bold text-5xl">prueba</h1>
     );
 }

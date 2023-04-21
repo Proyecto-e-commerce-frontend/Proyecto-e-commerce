@@ -1,10 +1,11 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Header() {
     return (
         <div className="flex px-8 py-4 items-center justify-between">
             <div className="flex items-center">
-                <img alt="Logo e-commerce" className="w-12" src="/e-commerce.png"></img>
+                <Image alt="Logo e-commerce" width={60} height={60} src="/e-commerce.png"></Image>
                 <h2 className="text-white uppercase ml-1 font-medium">E-commerce</h2>
             </div>
             <nav>

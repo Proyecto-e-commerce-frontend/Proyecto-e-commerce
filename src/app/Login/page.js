@@ -1,8 +1,11 @@
+import Header from "../header/page";
+
 export default function Login() {
     
     return(
 
         <>
+            <Header/>
 
             <form action="#" className="formulario-contacto">
 

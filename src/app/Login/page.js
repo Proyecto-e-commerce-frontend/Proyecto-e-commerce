@@ -10,7 +10,7 @@ export default function Login() {
                 <fieldset className="formulario-contacto__contenido">
 
                     <legend className="formulario-contacto__contenido__titulo">Ingresar a mi cuenta</legend>
-                    <label for='email' className="text-5xl">E-mail</label>
+                    <label for='email' className="text-5xl">email</label>
                     <input type="email" className="formulario-contacto__contenido__nombre" placeholder="Escriba su correo electrónico" required data-input="email" id="email"/>
                     <span className="formulario-contacto__contenido__span"></span>
                     <label for='password'>Contraseña</label>

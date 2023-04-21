@@ -26,3 +26,12 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/* footer */
+
+.color-footer{
+
+  color: #0F58A8;
+}
+
+/* Hasta aquí */

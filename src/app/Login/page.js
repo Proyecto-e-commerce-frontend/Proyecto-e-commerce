@@ -1,9 +1,12 @@
+import Header from "../header/page";
+
 export default function Login() {
     
     return(
 
         /*parte del login */
         <>
+            <Header/>
 
             <form action="#" className="">
 

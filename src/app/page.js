@@ -17,7 +17,7 @@ export default function Login() {
                         <input className="formulario-contacto__contenido__nombre rounded-md mb-1 p-1 text-black bg-gray-200" type="password" placeholder="Escriba su contraseña" data-input="password" id="password"/>
                         <span className="formulario-contacto__contenido__span"></span>
                         <button className="bg-indigo-500 rounded-md formulario-contacto__contenido__boton text-2 m-2 p-1" type="submit" formaction="./menu-administrador.html">INGRESAR</button>
-                        <a href="#" className="flex self-center m-2 hover:text-indigo-500"><strong>REGISTRARSE</strong></a>
+                        <a href="./registro" className="flex self-center m-2 hover:text-indigo-500"><strong>REGISTRARSE</strong></a>
                     </div>
                 </fieldset>
 

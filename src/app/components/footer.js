@@ -3,7 +3,7 @@ import { faShop } from "@fortawesome/free-solid-svg-icons";
 import { faBuildingShield } from "@fortawesome/free-solid-svg-icons";
 import { faIdCard } from "@fortawesome/free-solid-svg-icons";
 
-export default function Footer() {
+export function Footer() {
     
     return(
 

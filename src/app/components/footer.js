@@ -3,20 +3,23 @@ import { faShop } from "@fortawesome/free-solid-svg-icons";
 import { faBuildingShield } from "@fortawesome/free-solid-svg-icons";
 import { faIdCard } from "@fortawesome/free-solid-svg-icons";
 
-export function Footer() {
+export default function Footer() {
+    
+    const fechaActual = new Date();
     
     return(
 
-            <footer className="flex mt-5">
+            <footer className="flex flex-wrap my-4 justify-center" id="rodapie">
 
                 <Columna title={'Métodos de pago'} icon={faShop}/>
                 <Columna title={'Política y privacidad'} icon={faBuildingShield}/>
                 <Columna title={'Contacto'} icon={faIdCard}/>
-                <a href="#" className="pr-10">
+                <a href="#" className="w-[25%]">
 
-                    <img alt="Logo e-commerce" src="/e-commerce.png" />
+                    <img alt="Logo e-commerce" src="/e-commerce.png" className="h-[9rem] ml-20"/>
 
                 </a>
+                <p className="mt-7">&copy; {fechaActual.getFullYear()}</p>
 
             </footer>
     );
@@ -26,7 +29,7 @@ function Columna({ title, icon }) {
     
     return(
 
-            <div className="w-full text-center [&:not(:nth-child(3))]:border-r-4 border-solid border-white">
+            <div className="w-[25%] text-center [&:not(:nth-child(3))]:border-r-4 border-solid border-white">
                 <div className="flex justify-center">
 
                     <FontAwesomeIcon icon={icon} style={{

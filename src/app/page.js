@@ -1,4 +1,5 @@
 import React from "react";
+import { Inputs } from "./components/login y registro/inputs.js";
 
 export default function Login() {
 
@@ -7,17 +8,20 @@ export default function Login() {
         /*parte del login */
 
             <div>
+<<<<<<< HEAD
                 <video src="/fondo-login.mp4" className="mt-20 opacity-30" autoPlay='true' muted loop></video>
+=======
+
+                <video src="/fondo-login.mp4" className="mt-20 opacity-20" autoPlay='true' muted loop></video>
+>>>>>>> bd2cf66d5be05fdb5aa3c4190e9df552319e4da7
                 <form action="#" className="flex items-center justify-center h-screen mt-[-48rem] absolute w-full">
                 <fieldset className="formulario-contacto__contenido">
                     <div className="flex flex-col">
                         <legend className="formulario-contacto__contenido__titulo text-2xl mb-2">Ingresar a mi cuenta</legend>
                         <label for='email' className="text-1">E-mail</label>
-                        <input type="email" className="formulario-contacto__contenido__nombre rounded-md mb-2 p-1 text-black bg-gray-200" placeholder="Escriba su correo electrónico" data-input="email" id="email"/>
-                        <span className="formulario-contacto__contenido__span"></span>
+                        <Inputs tipo='email' clases='formulario-contacto__contenido__nombre rounded-md mb-2 p-1 text-black bg-gray-200' placeholder='Escriba su correo electrónico' data='email' id='email' />
                         <label for='password' className="text-1">Contraseña</label>
-                        <input className="formulario-contacto__contenido__nombre rounded-md mb-1 p-1 text-black bg-gray-200" type="password" placeholder="Escriba su contraseña" data-input="password" id="password"/>
-                        <span className="formulario-contacto__contenido__span"></span>
+                        <Inputs tipo='password' clases='formulario-contacto__contenido__nombre rounded-md mb-1 p-1 text-black bg-gray-200' placeholder='Escriba su contraseña' data='password' id='password' />
                         <button className="bg-indigo-500 rounded-md formulario-contacto__contenido__boton text-2 m-2 p-1" type="submit" formaction="./menu-administrador.html">INGRESAR</button>
                         <a href="./registro" className="flex self-center m-2 hover:text-indigo-500"><strong>REGISTRARSE</strong></a>
                     </div>

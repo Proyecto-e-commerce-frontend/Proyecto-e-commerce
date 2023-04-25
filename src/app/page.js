@@ -5,8 +5,11 @@ export default function Login() {
     return(
 
         /*parte del login */
-        <>
-            <form action="#" className="flex items-center justify-center h-screen">
+
+            <div>
+
+                <video src="/fondo-login.mp4" className="mt-20 opacity-30" autoPlay='true' muted loop></video>
+                <form action="#" className="flex items-center justify-center h-screen mt-[-48rem] absolute w-full">
                 <fieldset className="formulario-contacto__contenido">
                     <div className="flex flex-col">
                         <legend className="formulario-contacto__contenido__titulo text-2xl mb-2">Ingresar a mi cuenta</legend>
@@ -21,9 +24,10 @@ export default function Login() {
                     </div>
                 </fieldset>
 
-            </form>
+                </form>
 
-        </>
+            </div>
+
         /*Hasta aquí */
     );
 }

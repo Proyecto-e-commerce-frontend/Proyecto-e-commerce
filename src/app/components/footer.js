@@ -9,7 +9,7 @@ export default function Footer() {
     
     return(
 
-            <footer className="flex flex-wrap my-4 justify-center" id="rodapie">
+            <footer className="flex flex-wrap my-4 mt-40 justify-center" id="rodapie">
 
                 <Columna title={'Métodos de pago'} icon={faShop}/>
                 <Columna title={'Política y privacidad'} icon={faBuildingShield}/>

@@ -7,7 +7,6 @@ export default function Login() {
         /*parte del login */
 
             <div>
-
                 <video src="/fondo-login.mp4" className="mt-20 opacity-30" autoPlay='true' muted loop></video>
                 <form action="#" className="flex items-center justify-center h-screen mt-[-48rem] absolute w-full">
                 <fieldset className="formulario-contacto__contenido">
@@ -23,11 +22,12 @@ export default function Login() {
                         <a href="./registro" className="flex self-center m-2 hover:text-indigo-500"><strong>REGISTRARSE</strong></a>
                     </div>
                 </fieldset>
-
                 </form>
-
             </div>
 
         /*Hasta aquí */
     );
 }
+
+
+

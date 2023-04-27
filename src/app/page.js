@@ -8,12 +8,7 @@ export default function Login() {
         /*parte del login */
 
             <div>
-<<<<<<< HEAD
                 <video src="/fondo-login.mp4" className="mt-20 opacity-30" autoPlay='true' muted loop></video>
-=======
-
-                <video src="/fondo-login.mp4" className="mt-20 opacity-20" autoPlay='true' muted loop></video>
->>>>>>> bd2cf66d5be05fdb5aa3c4190e9df552319e4da7
                 <form action="#" className="flex items-center justify-center h-screen mt-[-48rem] absolute w-full">
                 <fieldset className="formulario-contacto__contenido">
                     <div className="flex flex-col">

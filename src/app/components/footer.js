@@ -9,7 +9,7 @@ export default function Footer() {
     
     return(
 
-            <footer className="flex flex-wrap my-4 mt-40 justify-center" id="rodapie">
+            <footer className="flex flex-wrap pt-4 mb-2 justify-center" id="rodapie">
 
                 <Columna title={'Métodos de pago'} icon={faShop}/>
                 <Columna title={'Política y privacidad'} icon={faBuildingShield}/>
@@ -19,7 +19,7 @@ export default function Footer() {
                     <img alt="Logo e-commerce" src="/e-commerce.png" className="h-[9rem] ml-20"/>
 
                 </a>
-                <p className="mt-7">&copy; {fechaActual.getFullYear()}</p>
+                <p className="mt-4">&copy; {fechaActual.getFullYear()}</p>
 
             </footer>
     );

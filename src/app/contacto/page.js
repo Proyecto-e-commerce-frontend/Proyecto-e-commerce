@@ -1,9 +1,11 @@
 export default function Contacto(){
+    
     return (
 
-        <div>
-            <video src="/fondo-login.mp4" className="mt-20 opacity-30" autoPlay='true' muted loop></video>
-            <form action="#" className="flex items-center justify-center mt-[-60rem] absolute w-full">
+        <div className='flex relative grow'>
+            <video src="/fondo-login.mp4" className="absolute top-0 left-0 w-full h-full object-cover" autoPlay='true' muted loop></video>
+            <div className='absolute top-0 left-0 w-full h-full bg-black opacity-60 mix-blend-overlay'></div>
+            <form action="#" className="flex items-center justify-center relative z-2 m-auto">
                     <fieldset className="formulario-contacto__contenido">
                         <div className="flex flex-col">
                         <legend className="formulario-contacto__contenido__titulo text-2xl mb-2">Contacto</legend>

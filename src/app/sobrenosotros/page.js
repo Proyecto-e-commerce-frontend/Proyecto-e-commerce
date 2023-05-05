@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function Sobrenosotros(){
     return (
 
-        <div className="px-36">
-            <h2 className="text-2xl mb-2">Sobre nosotros</h2><br/>
+        <div className="px-36 py-5">
+            <h2 className="text-4xl mb-2">Sobre nosotros</h2><br/>
             
             <p>Este emprendimiento se dedica a la venta de productos tecnológicos, específicamente computadoras y celulares. La tienda cuenta con una amplia variedad de marcas y modelos de dispositivos electrónicos, desde laptops y tablets hasta smartphones y accesorios.<br/><br/>
 

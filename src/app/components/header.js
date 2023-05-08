@@ -30,13 +30,13 @@ return (
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
                 >
-                    <Link href="#">Productos</Link>
+                    <Link href="./productos">Productos</Link>
                     {showSubMenu && (
                         <ul className="absolute top-full left-0 rounded-md shadow-lg py-1 z-10">
-                            <li className="bg-indigo-500 rounded-t-lg px-2 py-1 mx-2 text-center uppercase font-medium"><Link href="#">Computadoras</Link></li>
-                            <li className="bg-indigo-500 px-2 py-1 mx-2 text-center uppercase font-medium"><Link href="#">Celulares</Link></li>
-                            <li className="bg-indigo-500 px-2 py-1 mx-2 text-center uppercase font-medium"><Link href="#">Accesorios</Link></li>
-                            <li className="bg-indigo-500 rounded-b-lg px-2 py-1 mx-2 text-center uppercase font-medium"><Link href="#">Periféricos</Link></li>
+                            <li className="bg-indigo-500 rounded-t-lg px-2 py-1 mx-2 text-center uppercase font-medium"><Link href="./productos">Computadoras</Link></li>
+                            <li className="bg-indigo-500 px-2 py-1 mx-2 text-center uppercase font-medium"><Link href="./productos">Celulares</Link></li>
+                            <li className="bg-indigo-500 px-2 py-1 mx-2 text-center uppercase font-medium"><Link href="./productos">Accesorios</Link></li>
+                            <li className="bg-indigo-500 rounded-b-lg px-2 py-1 mx-2 text-center uppercase font-medium"><Link href="./productos">Periféricos</Link></li>
                         </ul>
                     )}
                 </li>

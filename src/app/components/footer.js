@@ -29,7 +29,7 @@ function Columna({ title, icon }) {
     
     return(
 
-            <div className="w-[25%] text-center [&:not(:nth-child(3))]:border-r-4 border-solid border-white">
+            <div className="text-center [&:not(:nth-child(3))]:border-r-4 border-solid border-white">
                 <div className="flex justify-center">
 
                     <FontAwesomeIcon icon={icon} style={{

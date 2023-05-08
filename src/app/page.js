@@ -55,7 +55,7 @@ function Login() {
 								sitekey="6LfcT9wlAAAAAKGmYq-KUn0iEor-e92KiMpIdNtz"
 								onChange={onChange}/>
 						</div>
-                        {captchaValido === false && <div className="text-red-500 mb-5">Por favor acepta el captcha</div>}
+                        {captchaValido === false && <div className="text-red-500 mb-5 self-center">Por favor acepta el captcha</div>}
                         <a href="./registro" className="flex self-center m-2 hover:text-indigo-500"><strong>REGISTRARSE</strong></a>
                     </div>
                 </fieldset>

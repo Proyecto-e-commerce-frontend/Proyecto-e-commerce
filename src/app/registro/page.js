@@ -32,6 +32,13 @@ function Registro(){
 		}
 	}
 
+    const [mostrarError, cambiarMostrarError] = useState(false);
+
+      const manejarBlur = (e) => {
+        const mensajeError = e.target.value;
+        cambiarMostrarError(mensajeError === "");
+      };
+      
     return (
 
         <div className='flex relative grow'>
@@ -43,7 +50,8 @@ function Registro(){
                                 <div className="flex justify-between gap-10">
                                     <div className="flex flex-col w-1/2">
                                         <label for='nombre' className="text-1">Nombre</label>
-                                        <input type="text" className="formulario-contacto__contenido__nombre rounded-md p-1 text-black bg-gray-200 mb-2" placeholder="Escriba su nombre" data-input="text" id="nombre"/>
+                                        <input onBlur={manejarBlur} type="text" className="formulario-contacto__contenido__nombre rounded-md p-1 text-black bg-gray-200 mb-2" placeholder="Escriba su nombre" data-input="text" id="nombre"/>
+                                        {mostrarError && <div className="text-red-500 text-xs">Completa el campo</div>}
                                         <span className="formulario-contacto__contenido__span"></span>
 
                                         <label for='email' className="text-1">E-mail</label>
@@ -68,7 +76,7 @@ function Registro(){
                                         <span className="formulario-contacto__contenido__span"></span>
 
                                         <label for='edad' className="text-1">Edad</label>
-                                        <input type="number" className="formulario-contacto__contenido__nombre rounded-md mb-2 p-1 text-black bg-gray-200" placeholder="Escriba su edad" data-input="number" id="edad"/>
+                                        <input type="number" mode="numeric" className="formulario-contacto__contenido__nombre rounded-md mb-2 p-1 text-black bg-gray-200" placeholder="Escriba su edad" data-input="number" id="edad"/>
                                         <span className="formulario-contacto__contenido__span"></span>
 
                                         <label for='domicilio' className="text-1">Domicilio</label>

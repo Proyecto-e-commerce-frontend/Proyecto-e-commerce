@@ -6,9 +6,9 @@ export default function Sobrenosotros(){
         <div className="px-36 py-5">
             <h2 className="text-4xl mb-2">Sobre nosotros</h2><br/>
             
-            <p>Este emprendimiento se dedica a la venta de productos tecnológicos, específicamente computadoras y celulares. La tienda cuenta con una amplia variedad de marcas y modelos de dispositivos electrónicos, desde laptops y tablets hasta smartphones y accesorios.<br/><br/>
+            <section>Este emprendimiento se dedica a la venta de productos tecnológicos, específicamente computadoras y celulares. La tienda cuenta con una amplia variedad de marcas y modelos de dispositivos electrónicos, desde laptops y tablets hasta smartphones y accesorios.<br/><br/>
 
-            <div class="flex px-8 py-4 items-center gap-4  justify-evenly">
+            <div class="flex px-8 py-4 items-center gap-4 justify-evenly">
                 <Image alt="tienda1" className="rounded-md" width={300} height={300} src="/tienda1.png"></Image>
                 <Image alt="tienda2" className="rounded-md" width={500} height={500} src="/tienda2.png"></Image>
             </div>
@@ -28,11 +28,11 @@ export default function Sobrenosotros(){
                 <Image alt="tienda5" className="rounded-md" width={400} height={400} src="/tienda5.png"></Image>
                 <Image alt="tienda6" className="rounded-md" width={500} height={500} src="/tienda6.png"></Image>
             </div>
-            </p><br/><br/><br/>
+            </section><br/><br/><br/>
 
-            <h2 className="text-2xl mb-2">Nuestra ubicación</h2><br/>
+            <h2 className="text-2xl">Nuestra ubicación</h2><br/>
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.4534024668!2d-58.515698767740496!3d-34.615654769927005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses!2sar!4v1682901159113!5m2!1ses!2sar" width={600} height={450} className="border-0 ml-10"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.4534024668!2d-58.515698767740496!3d-34.615654769927005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses!2sar!4v1682901159113!5m2!1ses!2sar" width={600} height={450} className="m-5"></iframe>
 
         </div>
     );
